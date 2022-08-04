@@ -122,6 +122,7 @@ plt.bar(occupancy_dataset['HumidityRatio'],occupancy_dataset['Occupancy'])
 sns.heatmap(occupancy_dataset.corr(), annot=True)
 
 ```
+- Humidity Ratio is weakly related to room occupancy.
 
 ### calculating mean 
 ```python
